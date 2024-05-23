@@ -3,11 +3,8 @@ from django.shortcuts import render
 from django.shortcuts import redirect
 
 cursos = [
-    [ "Python" , "C++" , "PHP", "Java", "C#" ],
-    [ "Python" , "C++" , "PHP", "Java", "C#" ],
-    [ "Python" , "C++" , "PHP", "Java", "C#" ],
-    [ "Python" , "C++" , "PHP", "Java", "C#" ],
-    [ "Python" , "C++" , "PHP", "Java", "C#" ],
+    [ "Desarrollo Web" , "4" , "Presencial", "Teorico-Practico", "Doc. Identificacion, Bachiller, Pruebas de Seleccion, Nivel de Educacion" ],
+    [ "Idiomas" , "2" , "Virtual", "Teorico", "Doc. Identificacion, Bachiller, Pruebas de Seleccion, Nivel de Educacion " ],
 ]
 #Request:Peticion
 #HttpResponse: Respuesta en HTTP
